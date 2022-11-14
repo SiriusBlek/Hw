@@ -79,8 +79,8 @@ console.log({
 /* * 8. Sort array in ascending and descending order
  */
 
-const asc = myArray.sort((a, b) => a - b);
-const desc = myArray.sort((a, b) => b - a);
+const asc = myArray.slice().sort((a, b) => a - b);
+const desc = myArray.slice().sort((a, b) => b - a);
 
 console.log({
     asc,
