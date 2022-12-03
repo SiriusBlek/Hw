@@ -49,8 +49,8 @@ console.log(countLetters('Node developer', 'd'));
  */
 
 function getRandom(start, end) {
-    const result = Math.floor(start + (end - start + 1) * Math.random()); 
-    return result;
+    // const result = Math.floor(start + (end - start + 1) * Math.random()); 
+    return result = Math.floor(start + (end - start + 1) * Math.random()); 
 }
 
 console.log(getRandom(0, 10));
